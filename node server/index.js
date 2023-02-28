@@ -77,7 +77,7 @@ app.post('/', async (req,res) => {
     
 })
 
-// Route to delete a message by id (Already done for you)
+// Route to delete a message by id
 
 app.delete('/:id', async (req, res) => {
     try {
@@ -89,6 +89,7 @@ app.delete('/:id', async (req, res) => {
     }
 });
 
+// Create random id for message
 function randomID(length){
     let result = '';
     let chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
