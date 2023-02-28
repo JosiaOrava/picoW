@@ -11,7 +11,7 @@ This was made with the following tech:
 * Node Express
 * MQTT
 * MicroPython
-<br> Browser has a very basic HTML site for entering data. Server is running in Node express and message protocol is MQTT. In the Pico W there is running MicroPython script. 
+<br><br> Browser has a very basic HTML site for entering data. Server is running in Node express and message protocol is MQTT. In the Pico W there is running MicroPython script. 
 
 ## What I learned
 This teached using Node Express routes for the server and also working with MicroPython in the embedded device. On top of this it also teached the use of MQTT in both server side and also client side.
