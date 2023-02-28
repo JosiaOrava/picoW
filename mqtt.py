@@ -10,7 +10,7 @@ from umqtt.simple import MQTTClient
 
 # Network
 ssid = "KME662"
-pwd = "SmartIot"
+pwd = "######"
 
 
 # Display
